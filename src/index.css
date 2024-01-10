@@ -1,0 +1,93 @@
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: #77bc3f;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.eidolon-logo {
+  display: flex;
+  width: 100px;
+  margin: auto;
+}
+.bodyContainer {
+  margin-top: 100px;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  border-radius: 10px;
+  font-family: 'Roboto, sans-serif';
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.label {
+  margin: 8px 0;
+}
+
+.input {
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 2px solid #3b7d32; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.textarea {
+  padding: 8px;
+  margin: 8px 0;
+  height: 100px;
+  border-radius: 5px;
+  border: 2px solid #3b7d32; 
+  font-family: 'Roboto', sans-serif;
+}
+
+.submitButton {
+  background-color: #77bc3f; 
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out; 
+  font-family: 'Roboto', sans-serif;
+}
+.submitButton:hover {
+  background-color: #3b7d32;
+}
+
+.suggestions-container {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4; 
+  border-radius: 5px; 
+  border: 2px solid #3b7d32; 
+}
+
+li {
+  margin-bottom: 5px;
+}
+li::marker {
+  color:  #3b7d32;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+}
